@@ -1,0 +1,279 @@
+body{
+    
+    background: #0F223F;
+    color: #fff;
+    
+
+}
+
+.hero-text{
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 48px;
+    margin: 30px;
+    color: #FFFFFF;
+
+
+}
+
+header{
+    background: #A5B7D3;
+    padding: 15px 0;
+}
+
+.conteiner{
+    width: 90%;
+    max-width: 1100px;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 40px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    opacity: 0.7;
+}
+
+.body1{
+    background-image: url("https://svidomi.in.ua/storage/page/23878/a02994fa66f2842d9729f43209d22914f3eb0db3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color:#fff;
+}
+
+.emotion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    min-height: 300px;
+
+}
+
+.blue{
+    background: #0255A3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+    
+}
+
+.yellow{
+    background: #F2C63F;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+}
+  
+
+.green{
+    background: #4F803A;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.red{
+    background: #EE2A2B;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.purple{
+    background: #CBA9CE;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.purple2{
+    background: #716CA4;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.orange{
+    background: #FC8E46;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.pink{
+    background: #EA779E;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.skyblue{
+    background: #CFD3D8;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.h2yellow{
+    border: 1px solid #FFDE70;
+    padding: 10px 100px;
+}
+
+.pyellow{
+    background-color: #FFDE70;
+    padding: 10px;
+}
+
+.h2blue{
+    border: 1px solid #6698E8;
+    padding: 10px 100px;
+}
+
+.pblue{
+    background-color: #6698E8;
+    padding: 10px;
+}
+
+.h2green{
+    border: 1px solid #48A44C;
+    padding: 10px 100px;
+}
+
+.pgreen{
+    background-color: #48A44C;
+    padding: 10px;
+}
+
+.h2red{
+    border: 1px solid #A5070A;
+    padding: 10px 100px;
+}
+
+.pred{
+    background-color: #A5070A;
+    padding: 10px;
+}
+
+.h2purple{
+    border: 1px solid #AB88C6;
+    padding: 10px 100px;
+}
+
+.ppurple{
+    background-color: #AB88C6;
+    padding: 10px;
+}
+
+.h2purple2{
+    border: 1px solid #46437C;
+    padding: 10px 100px;
+}
+
+.ppurple2{
+    background-color: #46437C;
+    padding: 10px;
+}
+
+.h2orange{
+    border: 1px solid #E2732F;
+    padding: 10px 100px;
+}
+
+.porange{
+    background-color: #E2732F;
+    padding: 10px;
+}
+
+.h2pink{
+    border: 1px solid #C35D85;
+    padding: 10px 100px;
+}
+
+.ppink{
+    background-color: #C35D85;
+    padding: 10px;
+}
+
+.h2skyblue{
+    border: 1px solid #1B8689;
+    padding: 10px 100px;
+}
+
+.pskyblue{
+    background-color: #1B8689;
+    padding: 10px;
+}
+
+.gallery{
+    display: flex;
+    gap: 30px;
+    padding: 60px 0;
+    justify-content: center;
+}
+
+.gallery img{
+    width: 350px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover{
+    transform: scale(1.05);
+}
+
+.conteiner2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.conteiner2 img{
+    width: 600px;
+    margin-left: 20px;
+}
+
+.conteiner3{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.conteiner3 img{
+    width: 600px;
+    margin-right: 20px;
+}
