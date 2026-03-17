@@ -277,3 +277,22 @@ nav a:hover{
     width: 600px;
     margin-right: 20px;
 }
+
+.movie-card {
+    width: 200px;
+}
+
+.movie-card ing {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s;
+}   
+    
+.movie-card img:hover {
+    transform: scale(1.05);
+
+}
+
+.movie-card p {
+    text-align: center;
+}
