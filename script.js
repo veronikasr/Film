@@ -6,7 +6,7 @@ fetch(url)
 .then(data => {
     const moviesConteiner = document.getElementById("movies");
     data.results.forEach(movie => {
-        const poster = "https://image.tmbb.org/t/p/w500" + movie.poster_path;
+        const poster = "https://image.tmdb.org/t/p/w500" + movie.poster_path;
         const card = document.createElement("a");
         card.href = "https://www.themoviedb.org/movie/" + movie.id;
         card.target = "_blank";
